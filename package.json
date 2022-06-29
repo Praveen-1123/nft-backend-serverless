@@ -1,0 +1,29 @@
+{
+  "name": "nft-marketplace",
+  "version": "1.0.0",
+  "description": "This is serverless nft marketplace backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Praveen",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1062.0",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "dynamoose": "^2.8.5",
+    "ethers": "^5.6.1",
+    "express": "^4.17.3",
+    "firebase-admin": "^10.0.2",
+    "lambda-local": "^2.0.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "parse-error": "^0.2.0",
+    "path": "^0.12.7",
+    "uuid": "^8.3.2"
+  }
+}
